@@ -1,0 +1,110 @@
+.smallNews {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    z-index: 2;
+
+    &__header {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 70px;
+
+        &__title {
+
+            font-size: $font-size-tall;
+            font-weight: 700;
+            line-height: 2rem;
+
+            a {
+                color: $color-font-main;
+                border-bottom: 4px solid rgba(0, 255, 191, 0.6);
+                text-decoration: none;
+                padding: {
+                    right: 10px;
+                    bottom: 4px;
+                }
+            }
+        }
+
+        &__category {
+            width: 5rem;
+            height: 2rem;
+            padding: 0 $padding-small-very;
+            border: 1px solid rgba(0, 255, 191, 0.6);
+            //background-color: rgba(0, 255, 191, 0.6);
+            border-radius: 0.5rem;
+            color: rgba(0, 255, 191, 0.6);
+            font: {
+                size: $font-size-small-very;
+
+                weight: 600;
+            }
+            line-height: 2rem;
+            text-align: center;
+        }
+
+        &__registeredUsers {
+
+            width: 8rem;
+            height: 2rem;
+            border: 1px solid $color-font-main-blue;
+            border-radius: 0.5rem;
+            color: $color-font-main-blue;
+
+            font: {
+                size: $font-size-small;
+
+                weight: 600;
+            }
+            line-height: 2rem;
+            text-align: center;
+            margin: 0 0 $gutter;
+        }
+    }
+
+    &__imgContainer {
+
+        width: 350px;
+        height: 250px;
+        display: flex;
+        border: 1px solid #fff;
+        overflow: hidden;
+        align-items: center;
+
+        &__image {
+
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+    }
+
+    &__content {
+        background-color: darken($color-lighter-blue, 80%);
+        padding: $padding-small;
+        text-align: left;
+        line-height: 1.5rem;
+        position: relative;
+        width: 100%;
+        border: solid 1px #fff;
+        top: -2vh;
+
+        &__excerpt {
+            font: {
+                family: $font-stack-secondary;
+                size: $font-size-small;
+                weight: 700;
+            }
+            line-height: 2rem;
+        }
+
+        &__infos {
+            font: {
+                style: italic;
+                size: $font-size-small;
+            }
+        }
+    }
+}

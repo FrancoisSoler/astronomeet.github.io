@@ -1,0 +1,29 @@
+# Composer
+/vendor
+
+# WordPress Core
+/wp
+
+# WordPress configuration
+/wp-config.php
+
+# Plugins
+/content/plugins/*
+!/content/plugins/meet
+!/content/plugins/user_register_meet_level
+!/content/plugins/ajax-meet
+!/content/plugins/customize_backoffice
+
+# Thèmes
+/content/themes/*
+!/content/themes/astronomeet
+
+# wp-content
+/content/languages
+/content/upgrade
+/content/uploads
+
+# Sprint 0
+/sprint0
+
+!.gitignore

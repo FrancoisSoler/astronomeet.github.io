@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstronoMeet</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="meetsPage">
+
+    <!-- Layout: header -->
+    <header class="meetsPage__header">
+
+        <!-- Component: menu -->
+        <nav class="menu">
+
+            <div class="menu__title">
+                <img class="menu__title__image" src="images/logonav.png" alt="">
+            </div>
+
+            <ul class="menu__links">
+                <li class="menu__links__item"><a href="">meets</a></li>
+                <li class="menu__links__item"><a href="">communauté</a> </li>
+                <li class="menu__links__item"><a href="">guides</a></li>
+                <li class="menu__links__item"><a href="">médias</a> </li>
+                <li class="menu__links__item"><a href="">calendriers</a> </li>
+                <li class="menu__links__item" id="login"><a href="">se connecter</a> </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <div class="meetsPage__content">
+
+        <!-- bannière vidéo: -->
+        <!-- commenter ce block pour masquer la bannière -->
+        <div class="meetsPage__content__backSlide1">
+            <div class="meetsPage__content__backSlide1__title">
+                Les meets
+            </div>
+            <video src="/videos/cycle3.mp4" autoplay loop muted width="1920px" height="1080px"></video>
+        </div>
+
+        <!-- Layout: meets-section -->
+        <section class="meets">
+
+            <!-- commenter le contenu de ce block si besoin pour l'utiliser en zone de test -->
+            <div class="meets__nextMeet">
+
+                <div class="meets__nextMeet__sectionTitle">Le prochain meet</div>
+
+                <div class="meets__nextMeet__imageArea">
+
+                    <img class="meets__nextMeet__imageArea__img" src="/images/newsimg.png" alt="">
+                    <span class="meets__nextMeet__imageArea__bg"></span>
+
+                </div>
+
+                <div class="meets__nextMeet__content">
+
+                    <h5 class=meets__nextMeet__content__title><a href=""> 21/12/2019: Titre du meet</a></h5>
+                    <h6 class="meets__nextMeet__content__location">A Nowhere (95)</h6> 
+                    <h6 class="meets__nextMeet__content__level">Niveau</h6>
+                    <p class="meets__nextMeet__content__excerpt">Description du meet: Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Dolores obcaecati voluptate totam. Voluptatem, saepe explicabo.
+                    </p>
+                    <span class="meets__nextMeet__content__infos">Posté par Julien</span>
+                    <button class="inscriptionButton">Participer</button>
+
+
+                </div>
+
+                
+
+
+            </div>
+
+            <div class="meets__incoming">
+
+                <div class="meets__incoming__sectionTitle">Les prochains meets</div>
+
+                <!-- Component: smallNews  -->
+                <div class="smallNews">
+
+                    <div class="smallNews__header">
+                        <h5 class="smallNews__header__title"><a href="">21/12/2019: Titre du meet</a></h5>
+                        <h6 class="smallNews__header__category">Niveau</h6>
+                    </div>
+
+                    <img class="smallNews__image" src="/images/small-news-img1.jpg" alt="">
+
+                    <div class="smallNews__content">
+
+                        <div class="smallNews__content__excerpt">Lorem ipsum dolor sit amet.</div>
+                        <span class="smallNews__content__infos">Posté le 18/12/2019</span>
+
+                    </div>
+
+                </div>
+
+                <div class="smallNews">
+
+                    <div class="smallNews__header">
+                        <h5 class="smallNews__header__title"><a href="">21/12/2019: Titre du meet</a></h5>
+                        <h6 class="smallNews__header__category">Niveau</h6>
+                    </div>
+
+                    <img class="smallNews__image" src="/images/small-news-img2.jpg" alt="">
+
+                    <div class="smallNews__content">
+
+                        <div class="smallNews__content__excerpt">Lorem ipsum dolor sit amet.</div>
+                        <span class="smallNews__content__infos">Posté le 18/12/2019</span>
+
+                    </div>
+
+                </div>
+
+                <div class="smallNews">
+
+                    <div class="smallNews__header">
+                        <h5 class="smallNews__header__title"><a href="">21/12/2019: Titre du meet</a></h5>
+                        <h6 class="smallNews__header__category">Niveau</h6>
+                    </div>
+
+                    <img class="smallNews__image" src="/images/small-news-img2.jpg" alt="">
+
+                    <div class="smallNews__content">
+
+                        <div class="smallNews__content__excerpt">Lorem ipsum dolor sit amet.</div>
+                        <span class="smallNews__content__infos">Posté le 18/12/2019</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="meets__latest">
+
+                <div class="meets__latest__sectionTitle">Voir les derniers meets</div>
+
+                <!-- Component: smallNews  -->
+                <div class="smallNews">
+
+                    <div class="smallNews__header">
+                        <h5 class="smallNews__header__title"><a href="">21/12/2019: Titre du meet</a></h5>
+                        <h6 class="smallNews__header__category">Niveau</h6>
+                    </div>
+
+                    <img class="smallNews__image" src="/images/small-guide-img1.jpg" alt="">
+
+                    <div class="smallNews__content">
+
+                        <div class="smallNews__content__excerpt">Lorem ipsum dolor sit amet.</div>
+                        <span class="smallNews__content__infos">Posté le 18/12/2019</span>
+
+                    </div>
+
+                </div>
+
+                <div class="smallNews">
+
+                    <div class="smallNews__header">
+                        <h5 class="smallNews__header__title"><a href="">21/12/2019: Titre du meet</a></h5>
+                        <h6 class="smallNews__header__category">Niveau</h6>
+                    </div>
+
+                    <img class="smallNews__image" src="/images/small-guide-img1.jpg" alt="">
+
+                    <div class="smallNews__content">
+
+                        <div class="smallNews__content__excerpt">Lorem ipsum dolor sit amet.</div>
+                        <span class="smallNews__content__infos">Posté le 18/12/2019</span>
+
+                    </div>
+
+                </div>
+
+                <div class="smallNews">
+
+                    <div class="smallNews__header">
+                        <h5 class="smallNews__header__title"><a href="">21/12/2019: Titre du meet</a></h5>
+                        <h6 class="smallNews__header__category">Niveau</h6>
+                    </div>
+
+                    <img class="smallNews__image" src="/images/small-guide-img1.jpg" alt="">
+
+                    <div class="smallNews__content">
+
+                        <div class="smallNews__content__excerpt">Lorem ipsum dolor sit amet.</div>
+                        <span class="smallNews__content__infos">Posté le 18/12/2019</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="meetsPage__content__backSlide2">
+            <div class="meetsPage__content__backSlide2__title">
+                Meet's medias
+            </div>
+            <video src="/videos/cycle.mp4" autoplay loop muted width="1920px" height="1080px"></video>
+        </div>
+
+        <!-- Layout: medias -->
+        <section class="medias">
+            <!-- <div class="medias__sectionTitle">Vos medias</div> -->
+            <div class="medias__player">
+
+            </div>
+        </section>
+
+
+
+        <div class="meetsPage__content__backSlide3">
+            <!-- <video src="/videos/nebula.mp4" autoplay loop muted width="1920px" height="1080px"></video> -->
+        </div>
+    </div>
+    <footer class="footer">
+
+        <div class="footer_infos"></div>
+        <div class="footer__links">
+            <ul class="footer__links__category">
+                <li class="footer__links__category__name">
+                    <h5>Lorem ipsum</h5>
+                </li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+            </ul>
+            <ul class="footer__links__category">
+                <li class="footer__links__category__name">
+                    <h5>Lorem ipsum</h5>
+                </li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+            </ul>
+            <ul class="footer__links__category">
+                <li class="footer__links__category__name">
+                    <h5>Lorem ipsum</h5>
+                </li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+            </ul>
+            <ul class="footer__links__category">
+                <li class="footer__links__category__name">
+                    <h5>Lorem ipsum</h5>
+                </li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+                <li class="footer__links__category__item">lorem</li>
+            </ul>
+        </div>
+        <div class="footer__social">
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+    </footer>
+
+
+    <script src="../js/app.js"></script>
+
+</body>
+
+</html>

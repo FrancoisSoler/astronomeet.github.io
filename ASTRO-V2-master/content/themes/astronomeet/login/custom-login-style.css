@@ -1,0 +1,49 @@
+
+Body.login
+{
+    background-image: url(bg-front.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+
+}
+
+body.login div#login .message  {
+    background-color: #f0f4f771;
+    color: #f0f4f7f1;
+    border-color: #f0f4f700;
+}
+
+
+#login h1 a {
+    background-image: url(astroLogoV2.png) !important;
+    background-size: contain;
+    margin:0 auto;
+    width: 250px;
+    height: 50px;
+}
+
+
+#loginform,
+#registerform {
+    background-color: #f0f4f771;
+    color: #f0f4f7f1;
+    border-color: #f0f4f700;
+    padding: 1em 1.5em  ;
+}
+
+
+ #backtoblog {
+    display: none;
+} 
+
+body.login div#login p#nav a {
+    color: #e2e2e4;
+    padding: .8em;;
+}
+
+.radio-level {
+
+    width:8px;
+    height: 8px;
+}

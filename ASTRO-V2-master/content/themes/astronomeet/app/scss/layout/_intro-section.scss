@@ -1,0 +1,62 @@
+.intro {
+    position: sticky;
+    top: 0px;
+    z-index: -2;
+    // width: 100%;
+    -webkit-background-size: 100% auto;
+            background-attachment: fixed;
+            overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-flow: row;
+
+    background: {
+        image: url("../assets/images/bg-front.jpg");
+        color: $color-bg-section-third;
+        repeat: no-repeat;
+        size: cover;
+        height: 100vh;
+    }
+
+    color: $color-font-main;
+    font: {
+        family: $font-stack-secondary;
+    }
+
+    &__bannerInfos {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        z-index: -1;
+
+        @media (max-width: 600px) {
+            width: 80%;
+        }
+
+        &__logo {
+            padding-bottom: $padding;
+
+            img {
+                @media (max-width: 600px) {
+                    width: 100%;
+                }
+            }
+        }
+
+        &__subtitle {
+            font-size: $font-size-tall;
+            color: lighten($color-lighter-blue, 10%);
+        }
+    }
+
+    &__player {
+        z-index: 1;
+        overflow: hidden;
+
+        filter: brightness(1);
+        filter: contrast(1.08);
+
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,75 @@
+.medias {
+    width: 100%;
+    box-sizing: border-box;
+
+    font: {
+        family: $font-stack;
+        size: $font-size;
+    }
+
+    &__content {
+        
+        &__backSlide1 {
+            height: 50vh;
+            background-image: url("../assets/images/bg-front.jpg");
+            -webkit-background-size: 100% auto;
+            background-size: 100% auto;
+            background-attachment: fixed;
+            overflow: hidden;
+
+            &__title {
+                @media (max-width: 900px) {
+                    position: static;
+                    font-size: $font-size-tall-very*2;
+                }
+                position: absolute;
+                padding-top: 200px;
+                right: 50px;
+                text-transform: uppercase;
+                font: {
+                    size: $font-size-tall-very*3.5;
+                    weight: 700;
+                }
+                color: rgba(239, 242, 244, 0.25);
+            }
+        }
+
+        &__backSlide2 {
+            height: 50vh;
+            -webkit-background-size: 100% auto;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
+            &__title {
+                position: absolute;
+                top: 18vh;
+                left: 15%;
+                text-transform: uppercase;
+                font: {
+                    size: $font-size-tall-very*3.5;
+                    weight: 700;
+                }
+                color: rgba(239, 243, 244, 0.178);
+                z-index: 5;
+            }
+            filter: brightness(.8);
+
+            video {
+                position: absolute;
+                top: -300px;
+            }
+        }
+
+        &__backSlide3 {
+            height: 60vh;
+            background-image: url("../assets/images/bg-front-3.jpg");
+            -webkit-background-size: 100% auto;
+            background-size: 100% auto;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position-y: -400px;
+            overflow: hidden;
+            background-color: #000;
+        }
+    }
+}

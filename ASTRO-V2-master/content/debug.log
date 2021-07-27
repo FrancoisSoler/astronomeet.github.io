@@ -1,0 +1,361 @@
+[16-Dec-2019 23:26:07 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`wp_users_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`wp_posts_id`, `wp_users_id`) VALUES ('12', '13') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[16-Dec-2019 23:34:08 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`wp_users_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`wp_posts_id`, `wp_users_id`) VALUES ('27', '13') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[16-Dec-2019 23:36:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user_id() in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php:31
+Stack trace:
+#0 /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php(288): inscription('')
+#1 /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/AVA/projet-ava/wp/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/AVA/projet-ava/wp/wp-admin/admin-ajax.php(175): do_action('wp_ajax_do_ajax')
+#4 {main}
+
+Next Exception: Call to undefined function wp_get_current_user_id() in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
+#1 {main}
+  thrown in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php on line 82
+[16-Dec-2019 23:36:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user_id() in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php:31
+Stack trace:
+#0 /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php(288): inscription('')
+#1 /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/AVA/projet-ava/wp/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/AVA/projet-ava/wp/wp-admin/admin-ajax.php(175): do_action('wp_ajax_do_ajax')
+#4 {main}
+
+Next Exception: Call to undefined function wp_get_current_user_id() in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
+#1 {main}
+  thrown in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php on line 82
+[16-Dec-2019 23:37:23 UTC] PHP Notice:  wpdb::prepare est appelée de la mauvaise manière. Type de valeur non supporté (object). Veuillez lire <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 4.8.2.) in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4903
+[16-Dec-2019 23:37:23 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, object given in /var/www/html/AVA/projet-ava/wp/wp-includes/wp-db.php on line 1165
+[16-Dec-2019 23:37:23 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`wp_users_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`wp_posts_id`, `wp_users_id`) VALUES ('27', '') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[16-Dec-2019 23:37:42 UTC] PHP Notice:  wpdb::prepare est appelée de la mauvaise manière. Type de valeur non supporté (object). Veuillez lire <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 4.8.2.) in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4903
+[16-Dec-2019 23:37:42 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, object given in /var/www/html/AVA/projet-ava/wp/wp-includes/wp-db.php on line 1165
+[16-Dec-2019 23:37:42 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`wp_users_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`wp_posts_id`, `wp_users_id`) VALUES ('27', '') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[16-Dec-2019 23:40:25 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`wp_users_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`wp_posts_id`, `wp_users_id`) VALUES ('27', '25') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[16-Dec-2019 23:55:29 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[16-Dec-2019 23:55:30 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[16-Dec-2019 23:56:12 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[16-Dec-2019 23:56:19 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[16-Dec-2019 23:56:26 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[16-Dec-2019 23:56:26 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[17-Dec-2019 00:00:10 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[17-Dec-2019 00:00:10 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[17-Dec-2019 00:12:19 UTC] PHP Warning:  Use of undefined constant QM_EDITOR_COOKIE - assumed 'QM_EDITOR_COOKIE' (this will throw an Error in a future version of PHP) in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/output/Html.php on line 473
+[17-Dec-2019 00:12:19 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '<<' (T_SL) in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php:17
+Stack trace:
+#0 /var/www/html/AVA/projet-ava/wp-config.php(206): require_once()
+#1 /var/www/html/AVA/projet-ava/wp/wp-load.php(42): require_once('/var/www/html/A...')
+#2 /var/www/html/AVA/projet-ava/wp/wp-admin/admin-ajax.php(22): require_once('/var/www/html/A...')
+#3 {main}
+
+Next Exception: syntax error, unexpected '<<' (T_SL) in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in /var/www/html/AVA/projet-ava/content/plugins/query-monitor/collectors/php_errors.php on line 82
+[17-Dec-2019 00:32:32 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:38:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:39:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:40:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:43:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:46:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 00:51:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'meet_register_data' not found or invalid function name in /var/www/html/AVA/projet-ava/wp/wp-includes/class-wp-hook.php on line 288
+[17-Dec-2019 01:44:55 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 01:44:55 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:22 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:22 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:24 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:24 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:25 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:25 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:26 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:26 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:29 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:29 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:34 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:34 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:52 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:52 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:53 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:53 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 03:02:55 UTC] PHP Notice:  Undefined index: meet_id in /var/www/html/AVA/projet-ava/content/plugins/ajax-meet/ajax-meet.php on line 29
+[17-Dec-2019 03:02:55 UTC] Erreur de la base de données WordPress Column 'meet_id' cannot be null pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES (NULL, '1') faite par do_action('wp_ajax_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 08:49:43 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`entrant_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES ('27', '0') faite par do_action('wp_ajax_nopriv_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 08:50:14 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`entrant_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES ('27', '0') faite par do_action('wp_ajax_nopriv_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 08:53:03 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`entrant_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES ('27', '0') faite par do_action('wp_ajax_nopriv_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 08:53:50 UTC] Erreur de la base de données WordPress Cannot add or update a child row: a foreign key constraint fails (`astronomeet`.`wp_entrants`, CONSTRAINT `wp_entrants_ibfk_1` FOREIGN KEY (`entrant_id`) REFERENCES `wp_users` (`ID`)) pour la requête INSERT INTO `wp_entrants` (`meet_id`, `entrant_id`) VALUES ('27', '0') faite par do_action('wp_ajax_nopriv_do_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, inscription, QM_DB->query
+[17-Dec-2019 08:55:22 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[17-Dec-2019 12:27:49 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[17-Dec-2019 14:13:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:14:46 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:16:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:16:23 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:16:25 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:16:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:16:30 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:18:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:21:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:22:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:23:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:27:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:29:10 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:29:22 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:29:32 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/AVA/projet-ava/wp/wp-includes/post-template.php on line 316
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_month in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 306
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_day in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 307
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_hour in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 308
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_hour in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 309
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_year in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 313
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_hour in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 314
+[17-Dec-2019 14:49:27 UTC] PHP Notice:  Undefined index: _end_minute in /var/www/html/AVA/projet-ava/content/plugins/meet/includes/meet-post-type.php on line 315
+[02-Jan-2020 16:48:26 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 109
+[02-Jan-2020 16:50:16 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 109
+[02-Jan-2020 16:50:18 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 109
+[02-Jan-2020 16:50:58 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 102
+[02-Jan-2020 16:50:59 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 102
+[02-Jan-2020 16:51:00 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 102
+[02-Jan-2020 16:51:04 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 102
+[02-Jan-2020 16:51:24 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 109
+[02-Jan-2020 16:51:25 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 109
+[02-Jan-2020 16:51:29 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting end of file in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 109
+[02-Jan-2020 16:51:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 71
+[02-Jan-2020 16:51:51 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 71
+[02-Jan-2020 16:51:53 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 71
+[02-Jan-2020 16:51:56 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 71
+[02-Jan-2020 16:51:58 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 71
+[02-Jan-2020 16:52:31 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:52:32 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:53:06 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:53:12 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:53:14 UTC] PHP Notice:  Trying to get property 'current' of non-object in /var/www/html/AVA/projet-ava/wp/wp-admin/update-core.php on line 39
+[02-Jan-2020 16:53:14 UTC] PHP Notice:  Trying to get property 'locale' of non-object in /var/www/html/AVA/projet-ava/wp/wp-admin/update-core.php on line 39
+[02-Jan-2020 16:53:14 UTC] PHP Notice:  Trying to get property 'locale' of non-object in /var/www/html/AVA/projet-ava/wp/wp-admin/update-core.php on line 41
+[02-Jan-2020 16:53:14 UTC] PHP Notice:  Trying to get property 'locale' of non-object in /var/www/html/AVA/projet-ava/wp/wp-admin/update-core.php on line 43
+[02-Jan-2020 16:53:14 UTC] PHP Notice:  Trying to get property 'response' of non-object in /var/www/html/AVA/projet-ava/wp/wp-admin/update-core.php on line 60
+[02-Jan-2020 16:53:14 UTC] PHP Notice:  Trying to get property 'current' of non-object in /var/www/html/AVA/projet-ava/wp/wp-admin/update-core.php on line 142
+[02-Jan-2020 16:53:14 UTC] PHP Notice:  Trying to get property 'locale' of non-object in /var/www/html/AVA/projet-ava/wp/wp-admin/update-core.php on line 143
+[02-Jan-2020 16:53:14 UTC] PHP Notice:  Trying to get property 'locale' of non-object in /var/www/html/AVA/projet-ava/wp/wp-admin/update-core.php on line 152
+[02-Jan-2020 16:53:14 UTC] PHP Notice:  Trying to get property 'locale' of non-object in /var/www/html/AVA/projet-ava/wp/wp-admin/update-core.php on line 160
+[02-Jan-2020 16:53:33 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:53:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:53:45 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:54:01 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:54:03 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:54:06 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:55:03 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:55:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:55:13 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:55:16 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:55:22 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:55:33 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:55:46 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:56:02 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:56:10 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:56:12 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:56:34 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:56:35 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[02-Jan-2020 16:57:15 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:57:17 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:57:17 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[02-Jan-2020 16:57:24 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:57:24 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[02-Jan-2020 16:57:27 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:57:33 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:57:34 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:57:36 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:57:52 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:57:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:58:00 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:58:01 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:58:04 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:58:06 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:58:07 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:58:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:58:24 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:58:39 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:58:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:59:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:59:24 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:59:39 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 16:59:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:00:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:00:24 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:00:39 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:00:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:01:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:01:24 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:01:39 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:01:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:02:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:02:24 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:02:39 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:02:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:03:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:05:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:07:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:09:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[02-Jan-2020 17:11:09 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[23-Jan-2020 14:49:14 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[23-Jan-2020 15:01:21 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[23-Jan-2020 15:01:25 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[23-Jan-2020 15:01:49 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[23-Jan-2020 15:01:51 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[23-Jan-2020 15:01:57 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[23-Jan-2020 15:04:46 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[23-Jan-2020 15:04:48 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[23-Jan-2020 15:05:35 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[23-Jan-2020 15:05:40 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 14:48:00 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 14:49:09 UTC] PHP Notice:  login_headertitle est <strong>obsolète</strong> depuis la version 5.2.0 ! Utilisez login_headertext à la place. L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien. in /var/www/html/AVA/projet-ava/wp/wp-includes/functions.php on line 4841
+[28-Jan-2020 14:49:16 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 14:49:34 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 14:49:52 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 14:50:15 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 14:50:21 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 14:50:25 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 14:50:25 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:06:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:06:48 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:06:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:07:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:07:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:07:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:07:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:08:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:08:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:08:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:08:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:09:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:09:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:09:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:09:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:10:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:10:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:10:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:10:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:11:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:11:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:11:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:11:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:12:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:12:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:12:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:12:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:13:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:13:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:13:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:13:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:14:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:14:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:14:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:14:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:15:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:15:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:15:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:15:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:16:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:16:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:16:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:16:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:17:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:17:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:17:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:17:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:18:05 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:18:20 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:18:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:18:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:18:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:18:56 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:19:48 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:19:48 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:19:53 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:19:53 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/single-meet.php on line 79
+[28-Jan-2020 15:19:53 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:20:14 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:20:23 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:20:25 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:20:32 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:20:34 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:20:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:20:35 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:20:37 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:20:41 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:20:41 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:20:46 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:20:46 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:20:49 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:20:49 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:21:11 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:11 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:21:24 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:24 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:21:31 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:39 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:41 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:47 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:48 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:50 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:53 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:21:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:22:53 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:23:53 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:23:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:23:55 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:00 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:02 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:03 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:06 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:07 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:07 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:07 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:08 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:08 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:08 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:21 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:21 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:21 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:24:27 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:27 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/single-meet.php on line 79
+[28-Jan-2020 15:24:27 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:24:37 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:41 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:24:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:25:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:26:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:27:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:29:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:30:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:31:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:32:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:33:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:34:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:35:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:36:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:37:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:38:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:39:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:40:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:41:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:42:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:43:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:44:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:44:51 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:44:51 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:46:10 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:46:10 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:46:19 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:46:19 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:46:21 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:46:21 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/single-meet.php on line 79
+[28-Jan-2020 15:46:21 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:46:30 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:46:30 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43
+[28-Jan-2020 15:46:46 UTC] PHP Deprecated:  Function create_function() is deprecated in /var/www/html/AVA/projet-ava/content/plugins/customize_backoffice/customize.php on line 64
+[28-Jan-2020 15:46:46 UTC] PHP Notice:  Undefined variable: currentMeetId in /var/www/html/AVA/projet-ava/content/themes/astronomeet/footer.php on line 43

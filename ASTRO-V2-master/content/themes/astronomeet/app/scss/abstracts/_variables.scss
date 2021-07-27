@@ -1,0 +1,112 @@
+
+//fonts
+$fa-font-path: '~font-awesome/fonts';
+$font-stack:       ('Montserrat', sans-serif);
+$font-stack-secondary: ('Comfortaa', cursive);
+
+//size
+$font-size:           1rem;
+$font-size-small:     ($font-size - .1rem);
+$font-size-small-very:($font-size - .2rem);
+$font-size-tall:      ($font-size + .2rem);
+$font-size-tall-very: ($font-size-tall + .5rem);
+$font-size-tall-super:($font-size-tall-very*4.5);
+$font-size-tall-extra:($font-size-tall-very*6);
+
+//color
+
+$color-lighter-blue: #B4D8F2;
+$color-medium-blue: #71BAF2;
+$color-harder-blue: #279AF1;
+
+$color-font-main: #F2F2F2; 
+$color-font-secondary: #BCDCF5;
+$color-font-sub-menu: #84A7BB;
+$color-font-main-blue: #279AF1;
+
+$color-lighter-bg-blue: #718A9C;
+$color-medium-bg-blue: #3B5C78;
+$color-harder-bg-blue: #1C5988;
+
+$color-bg-intro: #16171D;
+//$color-bg-presentation: #19282d;
+$color-bg-presentation: #13253b;
+$color-bg-section:#16171D;
+$color-bg-meet-section: #211e29;
+$color-bg-section-second: #19292e;
+// $color-bg-section-second: #0F2A3E;
+$color-bg-section-third: rgb(8, 12, 22);
+$color-bg-footer: #000;
+$color-section-button: #1E2029;
+$color-border-container-content: #5EAAEC;
+
+//gutter
+$gutter:            1rem;
+$gutter-large:      ($gutter * 2);
+$gutter-large-very: ($gutter-large * 2);
+$gutter-small:      ($gutter / 2);
+$gutter-small-very: ($gutter-small / 2);
+
+//duration
+$duration:      0.5s;
+$duration-fast: ($duration / 2);
+$duration-slow: ($duration * 2);
+
+//padding
+$padding:            2rem;
+$padding-large:      ($padding * 2);
+$padding-large-very: ($padding-large * 2);
+$padding-small:      ($padding / 2);
+$padding-small-very: ($padding-small / 2);
+
+//breakpoints
+$breakpoint-small: 400px;
+
+$breakpoint-medium: 600px;
+$breakpoint-large: 900px;
+$breakpoint-large-very: 1200px;
+$breakpoint-large-extra: 1500px;
+
+
+body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duration='4000']{
+    transition-duration: 4000ms;
+  }
+
+  [data-aos="bg-transition1"] {
+    background: $color-bg-section-third;
+    transition-property: background;
+    &.aos-animate {
+      background: $color-bg-presentation;
+    }
+  }
+
+  [data-aos="bg-transition2"] {
+    background: $color-bg-section;
+    transition-property: background;
+    &.aos-animate {
+      background:$color-bg-section-third;
+    }
+  }
+
+  [data-aos="bg-transition3"] {
+    background: $color-bg-section-second;
+    transition-property: background;
+    &.aos-animate {
+      background: #000;
+    }
+  }
+
+  [data-aos="bg-transition4"] {
+    background: $color-bg-meet-section;
+    transition-property: background;
+    &.aos-animate {
+      background: rgb(15, 24, 48);
+    }
+  }
+  [data-aos="bg-transition5"] {
+    background: rgb(15, 24, 48);
+    transition-property: background;
+    &.aos-animate {
+      background: $color-bg-section-third;
+    }
+  }

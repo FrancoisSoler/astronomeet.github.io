@@ -1,0 +1,104 @@
+.meetsPage {
+    width: 100%;
+    box-sizing: border-box;
+
+    font: {
+        family: $font-stack;
+        size: $font-size;
+    }
+
+    &__content {
+        width: 100%;
+        overflow: hidden;
+        // En faire un composant à envoyer dans le fichier banner.scss
+        &__backSlide1 {
+            height: 40vh;
+            position: sticky;
+            top: 0px;
+            background-image: url("../assets/images/bg-front.jpg");
+            -webkit-background-size: 100% auto;
+            background-size: 100% auto;
+            background-attachment: fixed;
+            overflow: hidden;
+            max-width: 100%;
+            z-index: 0;
+            &__title {
+                @media (max-width: 900px) {
+                    position: static;
+                    font-size: $font-size-tall-very*2;
+                    margin-top: 20vh;
+                }
+                position: absolute;
+                top: 20vh;
+                left: 20%;
+                text-transform: uppercase;
+                z-index: 5;
+                font: {
+                    size: $font-size-tall-very*3.5;
+                    weight: 700;
+                }
+                color: rgba(239, 242, 244, 0.25);
+            }
+            &__titleSingle {
+                @media (max-width: 900px) {
+                    position: static;
+                    font-size: $font-size-tall-very*2;
+                    margin-top: 10vh;
+                }
+                position: absolute;
+                top: 15vh;
+                left: 20%;
+                text-transform: uppercase;
+                z-index: 5;
+                font: {
+                    size: $font-size-tall-very*3;
+                    weight: 700;
+                }
+                color: rgba(239, 242, 244, 0.25);
+            }
+            video {
+                overflow: hidden;
+                position: absolute;
+                top: -10px;
+                z-index: -5;
+            }
+        }
+
+        &__backSlide2 {
+            height: 50vh;
+            //background-image: url("../assets/images/front2.png");
+            -webkit-background-size: 100% auto;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
+            position: relative;
+            z-index: 3;
+            &__title {
+                position: absolute;
+                padding-top: 200px;
+                left: 50px;
+                text-transform: uppercase;
+                font: {
+                    size: $font-size-tall-super;
+                    weight: 700;
+                }
+                color: rgba(239, 243, 244, 0.178);
+            }
+            filter: brightness(.8);
+        }
+
+        &__backSlide3 {
+            height: 60vh;
+            background-image: url("../assets/images/bg-front-3.jpg");
+            -webkit-background-size: 100% auto;
+            background-size: 100% auto;
+            background-attachment: fixed;
+            background-position-y: -400px;
+            overflow: hidden;
+            background-color: #000;
+            position: relative;
+            z-index: 3;
+            
+        }
+    }
+}

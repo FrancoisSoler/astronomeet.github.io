@@ -1,0 +1,1 @@
+/var/www/html/AVA/projet-ava/content/plugins/query-monitor/wp-content/db.php

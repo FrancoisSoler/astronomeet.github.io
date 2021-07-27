@@ -1,0 +1,42 @@
+.medias {
+    z-index: 3;
+    width: 100%;
+    background-color: $color-bg-section-second;
+    color: $color-font-main;
+    padding: 0;
+    height: auto;
+
+    @media (min-width: $breakpoint-large-very) {
+        padding: $padding;
+    }
+    @media (min-width: $breakpoint-large-extra) {
+        padding: $padding-large-very;
+    }
+
+    &__sectionTitle {
+        //position: absolute;
+        // Pour descendre le fligrane d'un peu moins que la hauteur du padding:
+        top: ($padding-large);
+        right: 0px;
+        text-transform: uppercase;
+        font: {
+            size: $font-size-tall-very*3.5;
+            weight: 700;
+        }
+        @media (min-width: $breakpoint-large) {
+            font-size: $font-size-tall-very*3.5;
+        }
+        color: rgba(240, 239, 244, 0.3);
+        z-index: 1;
+    }
+
+    &__player {
+        //position: relative;
+        //text-align: center;
+        top: 50px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+}

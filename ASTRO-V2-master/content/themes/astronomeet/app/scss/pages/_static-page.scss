@@ -1,0 +1,62 @@
+.staticPage {
+    width: 100%;
+    box-sizing: border-box;
+
+    font: {
+        family: $font-stack;
+        size: $font-size;
+    }
+    
+    &__backSlide1 {
+        height: 50vh;
+        position: sticky;
+        top: 0px;
+        background-image: url("../assets/images/bg-front.jpg");
+        -webkit-background-size: 100% auto;
+        background-size: 100% auto;
+        background-attachment: fixed;
+        overflow: hidden;
+        max-width: 100%;
+        z-index: 0;
+        &__title {
+            position: absolute;
+            top: 25vh;
+            left: 100px;
+            text-transform: uppercase;
+            z-index: 5;
+            font: {
+                size: $font-size-tall-very * 3;
+                weight: 700;
+            }
+            color: rgba(239, 242, 244, 0.25);
+        }
+        video {
+            overflow: hidden;
+            position: absolute;
+            width: 100%;
+            top: -10px;
+            z-index: -5;
+        }
+    }
+
+    &__content {
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: $color-font-main;
+        background-color: $color-bg-section;
+        
+        @media (min-width: $breakpoint-large-very) {
+            padding: $padding-large-very;
+        }
+        @media (min-width: $breakpoint-large-extra) {
+            padding: $padding-large-very;
+        }
+        font-size: $font-size-tall;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+}

@@ -1,0 +1,28 @@
+.mapContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    &__title {
+        font-size: $font-size-tall-very;
+        font-weight: 700;
+        padding-bottom: $padding;
+        line-height: 3rem;
+    }
+
+    iframe {
+        margin: 0 auto 100px;
+    }
+}
+#windy {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto 100px;
+    
+    #bottom {
+        position: static;
+    }
+}
+
